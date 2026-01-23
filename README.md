@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌐 NetShare AI
 
-# Run and deploy your AI Studio app
+**NetShare AI** is a lightweight, clean, and AI-powered virtual hotspot manager. It provides a modern interface to share your device's internet connection (Wi-Fi, Ethernet, or Mobile Data) while enforcing account-based access control.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1qpiYy_fsz9egMYdeVtPAvAye_99hvjDT
+## ✨ Key Features
 
-## Run Locally
+- **Virtual Hotspot Control**: Simple Start/Stop interface for OS-level hotspot broadcasting.
+- **Hardware Command Bridge**: Generates optimized terminal scripts for Windows (`netsh`) and Linux (`nmcli`) to bypass browser sandboxing.
+- **AI Network Assistant**: Integrated Gemini 3 Pro expert for troubleshooting hardware drivers, ICS settings, and signal optimization.
+- **Device Monitoring**: Real-time tracking of connected clients, IP addresses, and connection stability.
+- **Account-Based Gating**: Secure login requirement to prevent unauthorized hotspot activation.
 
-**Prerequisites:**  Node.js
+---
 
+## 🚀 Quick Start
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Login**: Access the dashboard using your secure account.
+2. **Configure**: Set your Network SSID (Name) and a strong WPA2 Password.
+3. **Initialize**: Press **START**. The UI will enter "Broadcast Mode."
+4. **Activate Hardware**: 
+   - Copy the generated terminal command from the dashboard.
+   - Open your **Terminal/Command Prompt as Administrator**.
+   - Paste and run the command to enable physical broadcasting.
+5. **Connect**: Your hotspot is now visible to other devices!
+
+---
+
+## 🛠️ Built With
+
+- **Frontend**: React 19 + Tailwind CSS
+- **Intelligence**: Google Gemini API (Gemini 2.0 Flash)
+- **Styling**: Glassmorphism UI Design
+- **Architecture**: Web-to-OS Hardware Bridge
+
+---
+
+## ⚠️ Important Note
+*NetShare AI requires administrative privileges on the host machine to modify network adapter settings and enable Internet Connection Sharing (ICS).*
+
+---
+*Built for professionals who need simple, secure, and smart internet sharing.*
