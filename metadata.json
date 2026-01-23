@@ -1,0 +1,8 @@
+{
+  "name": "NetShare AI - Virtual Hotspot Controller",
+  "description": "A lightweight, clean, and AI-powered virtual hotspot manager for sharing internet connections with account-based access control.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
